@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Zone Api</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="primary">
+
+        <div class="heading">
+            <h1>TimeZone API</h1>
+        </div>
+    
+        <div class="subheading">
+            <h2 id="current">Your Current Time Zone</h2>
+        </div>
+    
+        <section class="box">
+            <p class="time">Name Of Time Zone : <span id="timezone"></span></p>
+            <p class="lati">Lat: <span id="lat"></span></p>
+            <p class="lon">long: <span id="longi"></span></p>
+            <p class="std">Offset STD: <span id="offstd"></span></p>
+            <p class="offset">Offset STD Seconds : <span id="stdsec"></span></p>
+            <p class="dst">Offset DST : <span id="dsto"></span></p>
+            <p class="dstsec">Offset DST Seconds: <span id="dstsec"></span></p>
+            <p class="con">Country: <span id="cont"></span></p>
+            <p class="post">Postcode: <span id="pin"></span></p>
+            <p class="city">City: <span id="cty"></span></p>
+        </section>
+
+    </div>
+
+    
+
+
+    <div class="secondary">
+
+        <section class="search">
+            <h2 class="heading2">Enter Address</h2>
+            <input id="addinput" class="input" type="text" placeholder="Address">
+            <button class="btn" onclick="getLocation() ">Submit</button>
+            <p style="color: white;" id="success"></p>
+        </section>
+    
+        <section class="box2">
+            <p class="time1">Name Of Time Zone : <span id="time"></span></p>
+            <p class="lati1">Lat: <span id="lati"></span></p>
+            <p class="lon1">long: <span id="lon"></span></p>
+            <p class="std1">Offset STD: <span id="offst"></span></p>
+            <p class="offset1">Offset STD Seconds : <span id="stdse"></span></p>
+            <p class="dst1">Offset DST : <span id="dst"></span></p>
+            <p class="dstsec1">Offset DST Seconds: <span id="dstse"></span></p>
+            <p class="con1">Country: <span id="con"></span></p>
+            <p class="post1">Postcode: <span id="pincod"></span></p>
+            <p class="city1">City: <span id="ct"></span></p>
+        </section>
+
+    </div>
+    
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
