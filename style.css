@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+body{
+    width: 1728px;
+    height: 3869px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    background: #000000;
+}
+
+
+#top{
+    position: absolute;
+    width: 1728px;
+    height: 1677px;
+    left: 0px;
+    top: 0px;
+    
+    background: #FFFFFF;
+}
+
+#time-zone-api{
+    position: absolute;
+    width: 692.27px;
+    height: 144px;
+    left: 72px;
+    top: 101px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 121px;
+
+    color: #000000;
+}
+
+#current-time{
+    position: absolute;
+    width: 1241px;
+    height: 160px;
+    left: 72px;
+    top: 287px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 121px;
+    
+    color: #000000;
+    
+}
+
+.table{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 1585px;
+    height: 1120px;
+    left: 72px;
+    top: 489px;
+    
+    border: 2px solid #000000;
+}
+
+#table{
+    position: absolute;
+    width: 669.46px;
+    height: 74px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 61px;
+    
+    color: #000000;
+}
+#name-time-zone{
+    position: absolute;
+    padding-top: 56px;
+    padding-left: 54px;    
+}
+
+#lat{
+    position: absolute;
+    padding-top: 165px;
+    padding-left: 54px;
+}
+
+#long{
+    position: absolute;
+    padding-top: 177px;
+    padding-left: 787px;
+}
+
+#offset{
+    position: absolute;
+    padding-top: 274px;
+    padding-left: 54px;
+}
+
+#offset-std{
+    position: absolute;
+    padding-top: 383px;
+    padding-left: 54px;
+}
+
+#offset-dst{
+    position: absolute;
+    padding-top: 486px;
+    padding-left: 54px;
+}
+
+#Offset-DST-Seconds{
+    position: absolute;
+    padding-top: 589px;
+    padding-left: 54px;
+}
+
+#Country{
+    position: absolute;
+    padding-top: 692px;
+    padding-left: 54px;
+}
+
+#Postcode{
+    position: absolute;
+    padding-top: 801px;
+    padding-left: 54px;
+}
+
+#city{
+    position: absolute;
+    padding-top: 904px;
+    padding-left: 54px;
+}
+
+#Enter-Address{
+    position: absolute;
+    width: 1241px;
+    height: 160px;
+    left: 72px;
+    top: 1818px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 121px;
+    
+    color: #FFFFFF;
+    
+}
+
+#search{
+    position: absolute;
+    width: 369.43px;
+    height: 29px;
+    left: 92.96px;
+    top: 1999px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+    
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+#bottom input{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 1579px;
+    height: 72px;
+    left: 78px;
+    top: 1978px;
+    
+    border: 1px solid #FFFFFF;
+}
+
+#Btn{
+    position: absolute;
+    width: 93.46px;
+    height: 33px;
+    left: 156.46px;
+    top: 2106px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #000000;
+}
+
+#bottom button{
+    position: absolute;
+    width: 260.75px;
+    height: 58px;
+    left: 78px;
+    top: 2094px;
+    
+    background: #FFFFFF;
+}
